@@ -1,17 +1,427 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <!--    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">-->
+    <title>Active Box</title>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <!--Header-->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img src="images/loream%20input.png" alt="" />
+          </div>
+          <nav class="nav">
+            <a class="nav__link" href="#">FEATURES</a>
+            <a class="nav__link" href="#">WORKS</a>
+            <a class="nav__link" href="#">OUR TEAM</a>
+            <a class="nav__link" href="#">TESTIMONIALS</a>
+            <a class="nav__link" href="#">DOWNLOAD</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--Intro-->
+    <div class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <h1 class="intro__title">Lorem ipsum dolor.</h1>
+          <h2 class="intro__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+            fugit iure iusto laboriosam maiores minus placeat, ut.
+          </h2>
+          <a class="btn btn--red" href="#">Find Out More</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Features-->
+    <div class="container">
+      <div class="features">
+        <div class="features__item">
+          <img
+            class="features__icon"
+            src="images/icons-features/Shape.png"
+            alt=""
+          />
+          <h4 class="features__title">Easily Customised</h4>
+          <div class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            atque cumque debitis ea eaque earum, inventore!
+          </div>
+        </div>
+        <div class="features__item">
+          <img
+            class="features__icon"
+            src="images/icons-features/Shape.png"
+            alt=""
+          />
+          <h4 class="features__title">Easily Customised</h4>
+          <div class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            atque cumque debitis ea eaque earum, inventore!
+          </div>
+        </div>
+        <div class="features__item">
+          <img
+            class="features__icon"
+            src="images/icons-features/Shape.png"
+            alt=""
+          />
+          <h4 class="features__title">Easily Customised</h4>
+          <div class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            atque cumque debitis ea eaque earum, inventore!
+          </div>
+        </div>
+        <div class="features__item">
+          <img
+            class="features__icon"
+            src="images/icons-features/Shape.png"
+            alt=""
+          />
+          <h4 class="features__title">Easily Customised</h4>
+          <div class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            atque cumque debitis ea eaque earum, inventore!
+          </div>
+        </div>
+        <div class="features__item">
+          <img
+            class="features__icon"
+            src="images/icons-features/Shape.png"
+            alt=""
+          />
+          <h4 class="features__title">Easily Customised</h4>
+          <div class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            atque cumque debitis ea eaque earum, inventore!
+          </div>
+        </div>
+        <div class="features__item">
+          <img
+            class="features__icon"
+            src="images/icons-features/Shape.png"
+            alt=""
+          />
+          <h4 class="features__title">Easily Customised</h4>
+          <div class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            atque cumque debitis ea eaque earum, inventore!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Works-->
+    <div class="works">
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/sertificates/UC-d97193cf-cec5-4b05-ad11-4fe2d667bb41.jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">Udemy</div>
+          <div class="works__text">Tailwind CSS</div>
+        </div>
+      </div>
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/sertificates/UC-691789f6-63fb-4bc5-82af-f85ba113f651.jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">udemy</div>
+          <div class="works__text">Vue Js</div>
+        </div>
+      </div>
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/sertificates/UC-0501ab34-61e3-4743-8eda-38f05ed53755.jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">udemy</div>
+          <div class="works__text">Telegram bot with Node js </div>
+        </div>
+      </div>
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/works/fantasy-2886775_1280.jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">Project Name</div>
+          <div class="works__text">User Interface Design</div>
+        </div>
+      </div>
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/sertificates/UC-19ed93e7-47a6-48be-91ff-6076e455a9a5.jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">Udemy</div>
+          <div class="works__text">Html, Css, Javascript</div>
+        </div>
+      </div>
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/works/cave-5229670_1280.jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">Project Name</div>
+          <div class="works__text">User Interface Design</div>
+        </div>
+      </div>
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/works/fantasy-3679542_1280%20(1).jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">Project Name</div>
+          <div class="works__text">User Interface Design</div>
+        </div>
+      </div>
+      <div class="works__item">
+        <img
+          class="works__photo"
+          src="images/works/fantasy-2886775_1280.jpg"
+          alt=""
+        />
+        <div class="works__content">
+          <div class="works__title">Project Name</div>
+          <div class="works__text">User Interface Design</div>
+        </div>
+      </div>
+    </div>
+
+    <!--Team-->
+    <div class="team">
+      <div class="container">
+        <div class="team__inner">
+          <div class="team__item">
+            <img
+              class="team__photo"
+              src="images/sertificates/UC-d97193cf-cec5-4b05-ad11-4fe2d667bb41.jpg"
+              alt=""
+            />
+            <div class="team__name">Lorem ipsum.</div>
+            <div class="team__prof">Lorem ipsum.</div>
+            <div class="team__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione.
+              </p>
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione. ut
+              </p>
+            </div>
+            <div class="social">
+              <a class="social__item" href="" target="_blank">
+                <img src="images/icons/facebook%20(1).png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/twitter.png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/linkedin.png" height="18" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="team__item">
+            <img
+              class="team__photo"
+              src="images/team/woman-4058770__480.jpg"
+              alt=""
+            />
+            <div class="team__name">Lorem ipsum.</div>
+            <div class="team__prof">Lorem ipsum.</div>
+            <div class="team__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione.
+              </p>
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione. ut
+              </p>
+            </div>
+            <div class="social">
+              <a class="social__item" href="" target="_blank">
+                <img src="images/icons/facebook%20(1).png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/twitter.png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/linkedin.png" height="18" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="team__item">
+            <img
+              class="team__photo"
+              src="images/team/woman-4058770__480.jpg"
+              alt=""
+            />
+            <div class="team__name">Lorem ipsum.</div>
+            <div class="team__prof">Lorem ipsum.</div>
+            <div class="team__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione.
+              </p>
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione. ut
+              </p>
+            </div>
+            <div class="social">
+              <a class="social__item" href="" target="_blank">
+                <img src="images/icons/facebook%20(1).png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/twitter.png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/linkedin.png" height="18" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="team__item">
+            <img
+              class="team__photo"
+              src="images/team/woman-4058770__480.jpg"
+              alt=""
+            />
+            <div class="team__name">Lorem ipsum.</div>
+            <div class="team__prof">Lorem ipsum.</div>
+            <div class="team__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione.
+              </p>
+              <p>
+                Architecto at cumque dolorem mollitia nobis quis rem velit vitae
+                voluptas. Aliquam corporis ea odit quod ratione. ut
+              </p>
+            </div>
+            <div class="social">
+              <a class="social__item" href="" target="_blank">
+                <img src="images/icons/facebook%20(1).png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/twitter.png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/linkedin.png" height="18" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Testimonials-->
+    <div class="reviews">
+      <div class="container">
+        <div class="reviews__item">
+          <div class="reviews__photo">
+            <img class="reviews__img" src="images/reviews/review1.jpg" alt="" />
+          </div>
+          <div class="reviews__content">
+            <div class="reviews__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              debitis dolorem doloribus eius esse, et harum illo magni.
+            </div>
+            <div class="reviews__author">Lorem ipsum dolor.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Team-->
+    <div class="download">
+      <div class="container">
+        <h3 class="download__title">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora!
+        </h3>
+        <div class="download__text">
+          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+        <a class="btn btn--red btn--long" href="#">Download Here</a>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__block">
+            <h4 class="footer__title">8-977-605-48-01</h4>
+            <address class="footer__address">
+              <div>5678 Melrose Place</div>
+              <div>Beverly Hills, CA 90343</div>
+            </address>
+          </div>
+          <div class="footer__block">
+            <h4 class="footer__title">ikartyshov50@gmail.com</h4>
+            <div class="social social--footer">
+              <a class="social__item" href="" target="_blank">
+                <img src="images/icons/facebook%20(1).png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/twitter.png" height="18" alt="" />
+              </a>
+              <a class="social__item" href="#" target="_blank">
+                <img src="images/icons/linkedin.png" height="18" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="footer__block">
+            <h4 class="footer__title">Vladimir Kartyshov</h4>
+            <div class="footer__text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                autem corporis error eveniet labore laboriosam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright__text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div><span>Eligendi nostrum qui voluptatem.</span></div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
